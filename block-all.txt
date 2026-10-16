@@ -1,0 +1,19 @@
+! License: GPLv3
+! Last modified: 2024-10-16
+!
+! Compiled by MagicStuff (Simplified by D_Skywalk)
+
+! Block all core PlayStation Network infrastructure
+||playstation.net^
+||playstation.com^
+||playstation.org^
+
+! Block Edge/CDN specific PlayStation update servers
+||update.playstation.org.edgesuite.net^
+||playstation.sony.akadns.net^
+
+! Block third-party tracking/telemetry endpoints
+||ribob01.net^
+
+! Generic CDNs (Apply this rule specifically to the console IP to avoid breaking other network traffic)
+0.0.0.0	a192.d.akamai.net
