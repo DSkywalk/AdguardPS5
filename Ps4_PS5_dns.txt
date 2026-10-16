@@ -11,7 +11,6 @@
 ||crs.playstation.net^
 ||cs.playstation.net^
 ||km.playstation.net^
-||api.playstation.com^
 
 ! --- CDNs y telemetry - Sony ---
 ||update.playstation.org.edgesuite.net^
@@ -19,6 +18,4 @@
 ||ribob01.net^
 
 ! --- CDNs Genéricos ---
-! Nota: Akamai aloja muchos sitios web. Si notas que alguna otra 
-! página falla en tu PC, elimina esta línea.
-||a192.d.akamai.net^
+0.0.0.0	a192.d.akamai.net
